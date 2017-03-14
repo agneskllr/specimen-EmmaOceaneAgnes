@@ -218,3 +218,9 @@ position: relative;
   -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
 }
+
+p:focus {
+  outline: none;
+}
+
+
