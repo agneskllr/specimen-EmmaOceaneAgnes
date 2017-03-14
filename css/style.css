@@ -18,10 +18,7 @@ th {;
 .col-md-12, .table-responsive, .table {
     height: 100%;
 }
-.col-md-4 {
-    width: 100%;
-}
-.nav {
+.navigation {
     text-align: center;
     padding: 15px;
 }
@@ -43,6 +40,11 @@ h2 {
     text-align: center;
     color: pink;
     margin-left: 20px;
+    overflow: hidden;
+    position: fixed;
+    width: 100px;
+    border: 1px solid #000;
+    background-color: #fff;
 }
 .nav-left {
     float: left;
@@ -63,11 +65,60 @@ position: relative;
     border-bottom: 1px solid #000;
 
 }
-.month {
-    overflow: hidden;
-    width: 20px;
-    border: 1px solid #000;
+
+.next_nav {
+    float: right;
 }
+/* NAV-COLUMNS */
+.slide {
+  width: 350px;
+  height: 120px;
+  margin-top: 50px;
+}
+
+.prev_nav {
+  position: absolute;
+  left: 5px;
+  height: 120px;
+  cursor: pointer;
+  z-index: 1000;
+  display: table;
+}
+
+.prev_nav p {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.next_nav {
+  position: absolute;
+  right: 5px;
+  height: 120px;
+  cursor: pointer;
+  z-index: 1000;
+  display: table;
+}
+
+.next_nav p {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.nav {
+  position: absolute;
+  overflow: hidden;
+}
+
+.nav>.column {
+  width: 140px;
+  height: 120px;
+  display: inline-block;
+  list-style: none;
+}
+
+
 @-webkit-keyframes hvr-buzz-out {
   10% {
     -webkit-transform: translateX(3px) rotate(2deg);
