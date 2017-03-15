@@ -90,24 +90,27 @@ img{
 	font-size: 20px;
 }
 .etroit{
- 	font-family: 'solide_miragemono' !important;
+ 	font-family: 'solide_mirageetroit' !important;
  	text-align: center;
  	font-size: 100px;
 }
 .etroitplus{
-	font-family: 'solide_miragemono' !important;
+	font-family: 'solide_mirageetroit' !important;
  	text-align: center;
 	font-size: 60px;
 }
 .etroitplusplus{
-	font-family: 'solide_miragemono' !important;
+	font-family: 'solide_mirageetroit' !important;
  	text-align: center;
 	font-size: 40px;
 }
 .etroitplusplusplus{
-	font-family: 'solide_miragemono' !important;
+	font-family: 'solide_mirageetroit' !important;
  	text-align: center;
 	font-size: 20px;
+}
+.informations{
+    font-family: 'petit_formal_scriptregular';
 }
 a {
   	color: #1a1a1a;
