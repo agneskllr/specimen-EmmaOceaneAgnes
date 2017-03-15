@@ -132,13 +132,17 @@
 .colonne6 {
     font-family: 'osp_le-patin-helvetemedium';
     color:black; 
-    font-size:30px;
+    font-size:20px;
+    line-height: 25px;
+
 }
 
 .colonne7 {
     font-family: 'blocusregular';
     color:black; 
-    font-size:140px;
+    font-size:200px;
+    line-height: 170px;
+
 }
 
 .colonne8 {
