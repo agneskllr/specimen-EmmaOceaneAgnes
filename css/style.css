@@ -15,9 +15,7 @@ th {;
     height: 100vh;
     overflow: scroll;
 }
-.col-md-12, .table-responsive, .table {
-    height: 100%;
-}
+
 .navigation {
     text-align: center;
     padding: 15px;
@@ -71,7 +69,7 @@ position: relative;
 }
 /* NAV-COLUMNS */
 .slide {
-  width: 350px;
+  width: 345px;
   height: 120px;
   margin-top: 50px;
 }
