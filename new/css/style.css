@@ -316,13 +316,11 @@ a.arrows {
 }
 a.arrows.arrow-left {
 	padding-left: 2px;
-	margin-right: 110px;
 	text-align: left;
 	right: 50%;
 }
 a.arrows.arrow-right {
 	padding-right: 2px;
-	margin-left: 110px;
 	text-align: right;
 	left: 50%;
 }
@@ -372,6 +370,7 @@ a.arrows:hover {
 	/* slashes */
 
 	#triangle-left, #triangle-right {
+		font-family: 'petit_formal_scriptregular'
 		width: 0px;
 		height: 0px;
 		position: relative;
@@ -430,7 +429,7 @@ h1, h2, h3, h4, h5 {
 	margin:0;
 }
 h1 {
-	font-size: 25px;
+	font-size: 20px;
 	line-height: auto;
 	text-align: center;
 	padding: 65px 0 10px 0;
@@ -475,7 +474,7 @@ article {
 }
 .project .header-block h2 {
 	font-family: 'petit_formal_scriptregular';
-	font-size: 25px;
+	font-size: 20px;
 	line-height: auto;
 	display: inline-block;
 	height: auto;
@@ -538,7 +537,7 @@ article {
 .page-home .scroll-container {
 	height: 100vh;
 	display: block;
-	padding: 28px 0 0 0;
+	padding: 0px 0 0 0;
 	overflow: hidden;
 	overflow-y: scroll;
 	position: relative;
