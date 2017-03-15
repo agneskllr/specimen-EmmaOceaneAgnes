@@ -138,6 +138,7 @@ a:hover {
 --------------------------------------------------*/
 
 #header {
+	font-family: 'petit_formal_scriptregular';
 	height: 150px;
 	width: 100%;
 	display: table;
@@ -155,7 +156,7 @@ a:hover {
 }
 
 .head-bar h1 {
-	font-size: 18px;
+	font-size: 38px;
 	font-weight: normal;
 	text-align: center;
 	line-height: 20px;
@@ -429,15 +430,15 @@ h1, h2, h3, h4, h5 {
 	margin:0;
 }
 h1 {
-	font-size: 42px;
+	font-size: 25px;
 	line-height: auto;
 	text-align: center;
-	padding: 50px 0 10px 0;
+	padding: 65px 0 10px 0;
 }
 
 h2 {
     text-align: left;
-    color: pink;
+    color: black;
     padding: 7px;
     border: 1px solid #000;
 }
@@ -474,12 +475,13 @@ article {
 }
 .project .header-block h2 {
 	font-family: 'petit_formal_scriptregular';
-	font-size: 15px;
+	font-size: 25px;
 	line-height: auto;
 	display: inline-block;
 	height: auto;
 	width: auto;
 	margin-bottom: 30px;
+	margin-left: -30px;
 }
 .project .header-block p {
 	/*font-size: 16px;
