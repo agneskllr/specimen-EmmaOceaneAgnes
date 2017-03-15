@@ -137,6 +137,9 @@ a:hover {
 	left: 0;
 	z-index: 5000;
 }
+#header h1:hover {
+	color: pink;
+}
 .head-bar {
 	height: 34px;
 	width: 100%;
@@ -292,9 +295,9 @@ a:hover {
 /* arrows */
 a.arrows {
 	/*font-family: 'entypo';*/
-	padding-top: 70px;
+	padding-top: 65px;
 	color: #000000;
-	width: 125px;
+	width: 50px;
 	font-size: 30px;
 	line-height: 20px;
 	display: block;
@@ -308,11 +311,16 @@ a.arrows.arrow-left {
 	padding-left: 2px;
 	text-align: left;
 	right: 50%;
+	margin-right: 60px;
+	font-size: 40px;
 }
 a.arrows.arrow-right {
 	padding-right: 2px;
 	text-align: right;
 	left: 50%;
+	margin-left: 60px;
+	font-size: 40px;
+
 }
 a.arrows:hover {
 	color: #888;
@@ -329,7 +337,7 @@ a.arrows:hover {
 	}
 	/* arrows */
 	a.arrows {
-		width: 20px;
+		width: 50px;
 		height: 40px;
 		font-size: 20px;
 		font-family: "Helvetica";
@@ -360,8 +368,8 @@ a.arrows:hover {
 	/* slashes */
 
 	#triangle-left, #triangle-right {
-		font-family: 'petit_formal_scriptregular'
-		width: 0px;
+		font-family: 'petit_formal_scriptregular';
+		width: 10px;
 		height: 0px;
 		position: relative;
 	}
