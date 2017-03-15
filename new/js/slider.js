@@ -7,10 +7,10 @@ $(document).ready(function(){
     });
 
     var fontSize = $( ".mySlider" ).slider("value");
-    $(".container").css('font-size',fontSize);
+    $(".container-slide").css('font-size',fontSize);
 
     $(".mySlider").on( "slide", function() {
       var fontSize = $( ".mySlider" ).slider("value");
-      $(".container").css('font-size',fontSize);
+      $(".container-slide").css('font-size',fontSize);
     });
 });

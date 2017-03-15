@@ -38,6 +38,30 @@ body {
 	z-index: 90000000;
 }*/
 
+img{
+	width: 300px;
+}
+
+.slider {
+    margin-right: 20px;
+    overflow: hidden;
+    width: 100px;
+    border: 1px solid #000;
+    width: 100px;
+    height: 5%;
+    border-radius: 2px;
+    }
+
+.mySlider {
+    margin-top: 30px;
+    margin-right: 20px;
+    width: 100px;
+    float: right;
+}
+.container {
+    margin-top: 50px;
+}
+
 .grid-container {
   padding-bottom: 0px;
 }
@@ -348,6 +372,9 @@ p {
 	display: block;
 	padding: 0 0 20px 0;
 	margin:0;
+}
+p:focus {
+  outline: none;
 }
 
 h1, h2, h3, h4, h5 {
