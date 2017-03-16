@@ -1,0 +1,80 @@
+
+
+@media print {
+ 
+	#content {
+	width: 100%; 
+	margin: 0; 
+	float: none; 
+	}
+
+ 	@page {
+	 margin-top: -1cm;
+	 margin-bottom: 0cm;
+	 margin-left: 0cm;
+	 margin-right: 0cm;
+	}
+
+	.chapter {
+     page-break-before: always; // AVANT L’ÉLÉMENT
+  }
+  img {
+     page-break-inside: avoid; // JAMAIS DANS L’ÉLÉMENT
+  }
+
+	body {
+		overflow-wrap: break-word;
+	}
+
+	h1, .arrows {
+		display: none;
+	}
+
+
+	h2 {
+		font-family: 'petit_formal_scriptregular';
+		font-size: 15px;
+		margin-bottom: -2.5cm;
+	}
+
+	img {
+		max-width: 200px;
+	}
+
+
+
+	.mono {
+		font-family: 'solide_miragemono';
+		font-size: 100px;
+		line-height: 95px;
+		page-break-after: always;
+	}
+
+	.monoplus {
+		font-family: 'solide_miragemono';
+		font-size: 50px;
+		page-break-after: always;
+	}
+
+	.monoplusplus {
+		font-family: 'solide_miragemono';
+		font-size: 25px;
+		page-break-after: always;
+	}
+
+	.monoplusplusplus{
+		font-family: 'solide_miragemono';
+		font-size: 12.5px;
+		page-break-after: always;
+
+	}
+
+
+	  img {
+	     page-break-inside: avoid; // JAMAIS DANS L’ÉLÉMENT
+	  }
+
+
+
+}
+
