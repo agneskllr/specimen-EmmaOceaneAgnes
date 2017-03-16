@@ -46,6 +46,14 @@ img{
   padding-bottom: 0px;
 }
 
+.shakes:hover {
+	color: pink;
+	overflow: visible;
+}
+.shakes {
+	overflow: visible;
+}
+
 .monotype{
  	font-family: 'solide_miragemono' !important;
  }
@@ -511,9 +519,12 @@ h1 {
 
 h2 {
     text-align: left;
+    background-color: #fff;
+    z-index: 1;
     color: black;
     padding: 7px;
     border: 1px solid #000;
+    position: fixed;
 }
 h3 {
 	font-size: 16px;
@@ -545,14 +556,17 @@ article {
 }
 .project .header-block {
 	padding-bottom: 10px;
+	padding-top: 50px;
 }
 .project .header-block h2 {
 	font-family: 'petit_formal_scriptregular';
 	font-size: 20px;
 	line-height: auto;
 	display: inline-block;
+	position: absolute;
 	height: auto;
 	width: auto;
+	margin-top: -50px;
 	margin-bottom: 30px;
 	margin-left: -30px;
 }
@@ -602,6 +616,7 @@ article {
 	overflow: hidden;
 }
 .page-home .grid-container {
+	vertical-align:top;
 	display: table-cell;
 	width: 420px;
 	min-width: 420px;
@@ -620,6 +635,8 @@ article {
     background-position: top left;
     background-repeat: repeat;*/
 }
+
+
 .page-home .project .text-block p {
 	font-size: 16px;
 	line-height: 22px;
@@ -816,3 +833,8 @@ article {
 ::-webkit-scrollbar-corner {
       background-color: black;
 } /* if both the vertical and the horizontal bars appear, then perhaps the right bottom corner also needs to be styled */
+
+
+/* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
