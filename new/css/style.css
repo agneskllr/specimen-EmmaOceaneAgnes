@@ -186,8 +186,9 @@ a:hover {
     }
 
 .mySlider {
-    width: 100px;
-    margin-top: 50px;
+    width: 150px;
+    margin-top: -30px;
+    margin-left: 180px;
     
 }
 .container {
