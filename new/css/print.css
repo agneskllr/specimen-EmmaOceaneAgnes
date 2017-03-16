@@ -9,7 +9,6 @@
 	}
 
  	@page {
-<<<<<<< Updated upstream
 	 margin-top: -1cm;
 	 margin-bottom: 0cm;
 	 margin-left: 0cm;
@@ -18,30 +17,17 @@
 
 	.chapter {
      page-break-before: always; // AVANT L’ÉLÉMENT
-  }
-=======
-	 margin-top: 1cm;
-	 margin-bottom: 1cm;
-	 margin-left: 3cm;
-	 margin-right: 3cm;
-	}
+  	}
 
-
-	.chapter {
-     page-break-before: always; // AVANT L’ÉLÉMENT
-  }
-
->>>>>>> Stashed changes
   img {
      page-break-inside: avoid; // JAMAIS DANS L’ÉLÉMENT
   }
 
 	body {
 		overflow-wrap: break-word;
-<<<<<<< Updated upstream
-=======
+
 		text-align: center;
->>>>>>> Stashed changes
+
 	}
 
 	h1, .arrows {
@@ -52,12 +38,8 @@
 	h2 {
 		font-family: 'petit_formal_scriptregular';
 		font-size: 15px;
-<<<<<<< Updated upstream
-		margin-bottom: -2.5cm;
-=======
 		margin-bottom: -1.5cm;
 		page-break-before: always;
->>>>>>> Stashed changes
 	}
 
 	img {
@@ -66,7 +48,6 @@
 
 
 
-<<<<<<< Updated upstream
 	.mono {
 		font-family: 'solide_miragemono';
 		font-size: 100px;
@@ -93,14 +74,12 @@
 
 	}
 
-=======
 	.lilgroteskregular {
 		font-family: 'lilgroteskregular';
 		font-size: 90px;
 		line-height: 95px;
 		page-break-before: avoid;
 		padding-bottom: 30px;
-		position: relative;
 	}
 
 	.lilgroteskregularplus {
@@ -110,7 +89,7 @@
 		page-break-after: avoid;
 		padding-top: 8px;
 		padding-bottom: 10px;
-		position: relative;
+		
 	}
 
 	.lilgroteskregularplusplus {
@@ -120,7 +99,7 @@
 		padding-bottom: 30px;
 		padding-top: 8px;
 		padding-bottom: 10px;
-		position: relative;
+		
 	}
 
 	.lilgroteskregularplusplusplus{
@@ -130,7 +109,7 @@
 		padding-bottom: 30px;
 		padding-top: 8px;
 		padding-bottom: 10px;
-		position: relative;
+		
 
 	}
 
@@ -141,7 +120,7 @@
 		page-break-after: avoid;
 		padding-top: 8px;
 		padding-bottom: 10px;
-		position: relative;
+		
 		}
 
 
@@ -153,7 +132,7 @@
 		line-height: 95px;
 		page-break-before: avoid;
 		padding-bottom: 30px;
-		position: relative;
+		
 	}
 
 	.lilgroteskboldplus {
@@ -163,7 +142,7 @@
 		page-break-after: avoid;
 		padding-top: 8px;
 		padding-bottom: 10px;
-		position: relative;
+		
 	}
 
 	.lilgroteskboldplusplus {
@@ -173,7 +152,7 @@
 		padding-bottom: 30px;
 		padding-top: 8px;
 		padding-bottom: 10px;
-		position: relative;
+		
 	}
 
 	.lilgroteskboldplusplusplus{
@@ -183,7 +162,7 @@
 		padding-bottom: 30px;
 		padding-top: 8px;
 		padding-bottom: 10px;
-		position: relative;
+		
 
 	}
 
@@ -194,17 +173,8 @@
 		page-break-after: avoid;
 		padding-top: 8px;
 		padding-bottom: 10px;
-		position: relative;
+		
 		}
-
-
-
->>>>>>> Stashed changes
-
-	  img {
-	     page-break-inside: avoid; // JAMAIS DANS L’ÉLÉMENT
-	  }
-
 
 
 }

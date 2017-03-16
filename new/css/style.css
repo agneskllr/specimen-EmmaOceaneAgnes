@@ -499,12 +499,12 @@ h1 {
 
 h2 {
     text-align: left;
-    position: fixed;
     background-color: #fff;
     z-index: 1;
     color: black;
     padding: 7px;
     border: 1px solid #000;
+    position: fixed;
 }
 h3 {
 	font-size: 16px;
@@ -543,6 +543,7 @@ article {
 	font-size: 20px;
 	line-height: auto;
 	display: inline-block;
+	position: absolute;
 	height: auto;
 	width: auto;
 	margin-top: -50px;
@@ -691,9 +692,6 @@ article {
 	}
 }
 
-<<<<<<< Updated upstream
-=======
-
 
 @-webkit-keyframes hvr-buzz-out {
   10% {
@@ -796,7 +794,6 @@ article {
   -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
 }
->>>>>>> Stashed changes
 ::-webkit-scrollbar {
       width: 1px;
 } /* this targets the default scrollbar (compulsory) */
@@ -817,11 +814,7 @@ article {
       background-color: black;
 } /* if both the vertical and the horizontal bars appear, then perhaps the right bottom corner also needs to be styled */
 
-<<<<<<< Updated upstream
-=======
 
 /* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 
-
->>>>>>> Stashed changes
