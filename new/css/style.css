@@ -135,6 +135,12 @@ img{
 	padding-left: 20px;
 	padding-right: 20px;
 }
+.lilgroteskregularplusplusplusplus {
+	font-family: 'lilgroteskregular' !important;
+ 	text-align: center;
+	font-size: 10px;
+}
+
 .lilgroteskbold{
  	font-family: 'lilgroteskbold' !important;
  	text-align: center;
@@ -564,7 +570,6 @@ article {
 	font-size: 20px;
 	line-height: auto;
 	display: inline-block;
-	position: absolute;
 	height: auto;
 	width: auto;
 	margin-top: -50px;
