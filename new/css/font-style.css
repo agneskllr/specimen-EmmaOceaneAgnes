@@ -18,6 +18,14 @@
 
 }
 
+@font-face {
+    font-family: 'lilgroteskbold';
+    src: url('lilgrotesk-bold.woff2') format('woff2'),
+         url('lilgrotesk-bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 @font-face {
     font-family: 'playfair_displayregular';
