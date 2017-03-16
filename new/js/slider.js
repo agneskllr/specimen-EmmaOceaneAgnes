@@ -1,8 +1,8 @@
 $(document).ready(function(){
     $(".mySlider").slider({
       min: 8,
-      max: 150,
-      value: 50,
+      max: 200,
+      value: 20,
       orientation: "horizontal",
     });
 
