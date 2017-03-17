@@ -738,6 +738,7 @@ article {
 	margin-top: -50px;
 	margin-bottom: 30px;
 	margin-left: -30px;
+	position: absolute;
 }
 .project .header-block p {
 	/*font-size: 16px;
